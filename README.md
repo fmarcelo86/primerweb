@@ -2,11 +2,11 @@
 
 ## npm install
 
-Ejecutar `npm install` dentro del directorio raiz del proyecto, para instalar las dependencias.
+Ejecutar `npm install` dentro del directorio raíz del proyecto, para instalar las dependencias.
 
 ## node app
 
-Ejecutar `node app` dentro del directorio raiz del proyecto, para arrancar la aplicación
+Ejecutar `node app` dentro del directorio raíz del proyecto, para arrancar la aplicación
 
 ## Abrir el navegador Web
 
