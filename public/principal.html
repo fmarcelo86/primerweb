@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Principal</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+            $.getJSON( "/cursos", function( cursos ) {
+                cursos.forEach(function (curso, index) {
+                    setTimeout(() => {
+                        var msg = '<p>El ID es <b>' + curso.id + '</b> el curso se llama <b>' + curso.nombre + '</b> tiene una duración de <b>' + curso.duracion + '</b> horas y un valor de <b>' + curso.valor + '</b> pesos</p>';
+                        $('body').append(msg);
+                    }, 2000*(index+1));
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

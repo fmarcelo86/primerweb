@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "duracion": 42,
+      "valor": 85000
+    },
+    {
+      "id": 2,
+      "nombre": "Node.JS",
+      "duracion": 35,
+      "valor": 12000
+    },
+    {
+      "id": 3,
+      "nombre": "Android",
+      "duracion": 80,
+      "valor": 135000
+    }
+  ]
